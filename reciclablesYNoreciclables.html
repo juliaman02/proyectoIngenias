@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Gochi+Hand&family=Kalam:wght@400;700&family=Mynerve&family=Pacifico&family=Preahvihear&family=Roboto:ital@1&family=Shadows+Into+Light&family=Sriracha&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Fasthand&family=Gochi+Hand&family=Kalam:wght@400;700&family=Mynerve&family=Pacifico&family=Preahvihear&family=Roboto:ital@1&family=Shadows+Into+Light&family=Sriracha&display=swap');
     </style>
     <title>Reciclaje</title>
     <link rel="stylesheet" href="styles.css" />
@@ -22,8 +22,8 @@
     </header>
 
     <main>
-      <div>
-      <h2>Materiales Reciclables</h2>
+      <div class="informacion">
+      <h2 class="titulo">Materiales Reciclables</h2>
       <h4>¿Qué son los materiales reciclables?</h4>
       <p class="reciclable-descripcion">
         Se les conoce como materiales reciclables a determinados productos u
@@ -48,72 +48,76 @@
         toparemos con alguno de estos objetos reciclables.
       </p>
 
-      <h4>Ejemplos de materiales reciclables y su potencial uso</h4>
-      <p class="reciclable-descripcion">Entre los materiales de uso cotidiano que podemos reciclar nos encontramos con: </p>
-        <ul id="lista-rec">
-          <div class="descripcion-con-imagen">
-            <li id="lista-rec">Papeles.<br>Entre los más utilizados tenemos:
+      <div class="informacion">
+        <h4>Ejemplos de materiales reciclables y su potencial uso</h4>
+          <p class="reciclable-descripcion">Entre los materiales de uso cotidiano que podemos reciclar nos encontramos con:</p>
             <ul id="lista-rec">
-              <li id="lista-rec">Diarios y revistas:<br>Son perfectos para reciclar, hay que considerar que las revistas no deben tener tratamientos plásticos.</li>
-              <li id="lista-rec">Papeles:<br>Impresos o no.<br>Por ejemplo: facturas, folletos,sobres comunes o de papel madera, etc</li>
-              <li id="lista-rec">Cartón: Cajas, carpetas, envases. </li>
-            </ul>
-            </li>
-            <img src="imagenes/papel.jpeg" alt="papel" class="reciclaje">
-            </div>
-
             <div class="descripcion-con-imagen">
-            <li id="lista-rec">Vidrios: por ejemplo envases de alimentos o bebidas.</li>
-            <img src="imagenes/vidrio.jpeg" alt="vidrio" class="reciclaje">
-          </div>
-          <div class="descripcion-con-imagen">
-            <li id="lista-rec">Textiles: Algodón, lino,etc </li>
-            <img src="imagenes//ropa.jpg" alt="ropa" class="reciclaje">
-          </div>
-          <div class="descripcion-con-imagen">
-            <li id="lista-rec">Metales como:
-              <ul id="lista-rec">
-                <li id="lista-rec">Latas y envases</li>
-                <li id="lista-rec">Aluminios</li>
-                <li id="lista-rec">Pilas</li>
-                <li id="lista-rec">Metales ferrosos</li>
-            </ul>
-            </li>
-            <img src="imagenes/metal.jpg" alt="metal" class="reciclaje">
-          </div>
-          <div class="descripcion-con-imagen">
-            <li id="lista-rec">Plásticos como:
-              <ul id="lista-rec">
-                <li id="lista-rec">Envases de comidas o bebidas</li>
-                <li id="lista-rec">Vasos y cubiertos descartables: Deben estar limpios y secos</li>
-                <li id="lista-rec">Macetas, sillas, mesas, entre otros.</li>
-                <li id="lista-rec">CD,DVD</li>
+                <li id="lista-rec">Papeles. <br> Entre los más utilizados tenemos:
+                  <ul id="lista-rec">
+                    <li id="lista-rec">Diarios y revistas: Son perfectos para reciclar, hay que considerar que las revistas <br>
+                    no deben tener tratamientos plásticos.</li>
+                    <li id="lista-rec">Papeles: Impresos o no. <br> Por ejemplo: remitos, facturas, folletos,sobres comunes o de papel madera, etc</li>
+                    <li id="lista-rec">Cartón: Cajas, carpetas, envases. </li>
+                  </ul>
+                </li>
+              <img src="imagenes/papel.jpeg" alt="papel" class="reciclaje">
+            </div>
+              <div class="descripcion-con-imagen">
+              <li id="lista-rec">Vidrios: por ejemplo envases de alimentos o bebidas.
+              </li>
+              <img src="imagenes/vidrio.jpeg" alt="vidrio" class="reciclaje">
+            </div>
+            <div class="descripcion-con-imagen">
+              <li id="lista-rec">Textiles: Algodón, lino,etc </li>
+              <img src="imagenes/ropa.jpg" alt="ropa" class="reciclaje">
+            </div>
+            <div class="descripcion-con-imagen">
+              <li id="lista-rec">Metales como:
+                <ul id="lista-rec">
+                  <li id="lista-rec">Latas y envases</li>
+                  <li id="lista-rec">Aluminios</li>
+                  <li id="lista-rec">Pilas</li>
+                  <li id="lista-rec">Metales ferrosos</li>
               </ul>
-            </li>
-              <img src="imagenes/plasticos.jpeg" alt="plasticos" class="reciclaje">
-          </div>
+              </li>
+              <img src="imagenes/metal.jpg" alt="metal" class="reciclaje">
+            </div>
+            <div class="descripcion-con-imagen">
+              <li id="lista-rec">Plásticos como:
+                <ul id="lista-rec">
+                  <li id="lista-rec">Envases de comidas o bebidas</li>
+                  <li id="lista-rec">Vasos y cubiertos descartables: Deben estar limpios y secos</li>
+                  <li id="lista-rec">Macetas, sillas, mesas, entre otros.</li>
+                  <li id="lista-rec">CD,DVD</li>
+                </ul>
+              </li>
+                <img src="imagenes/plasticos.jpeg" alt="plasticos" class="reciclaje">
+            </div>
+            </ul>
+        
+        <p class="reciclable-descripcion">Estos materiales pueden ser reutilizados en nuestros hogares o enviados a organizaciones que se encargan de reutilizarlas, generando una economía circular.
+          Por ejemplo podemos utilizar envases de plástico en nuestra casa como macetas, tuppers o incluso porta velas.
+          Podríamos hacer nuestro propio papel reciclado o hacer cuadernos sostenibles para vender en nuestro emprendimiento.
+          Con nuestra ropa vieja, podríamos utilizar retazos para hacernos un lindo bolso colorido.
+        </p>
+  
+        <h4>Basura inorgánica</h4>
+        <div class="descripcion-con-imagen">
+          <ul id="lista-rec">
+            <li id="lista-rec">Comida natural que sobra: es otra fuente orgánica ideal para darle de comer a nuestras mascotas o bien utilizarla en un compost para posterior elaboración de abono para nuestras plantas.</li>
+            <li id="lista-rec">Heces de nuestros animales: también sirven como abono orgánico para mejorar la calidad y nutrientes de los cultivos, plantas y árboles en general.</li>
+            <li id="lista-rec">Hojas, pasto y ramas: son ideales para crear abono o un compost orgánico, perfecto para enriquecer la tierra y nuestros cultivos tanto en casa como en las grandes granjas a nivel empresarial.</li>
         </ul>
+        
+        <img src="imagenes/basura-organica.jpg" alt="basura organica" class="reciclaje">
       
-      <p class="reciclable-descripcion">Estos materiales pueden ser reutilizados en nuestros hogares o enviados a organizaciones que se encargan de reutilizarlas, generando una economía circular.
-        Por ejemplo podemos utilizar envases de plástico en nuestra casa como macetas, tuppers o incluso porta velas.
-        Podríamos hacer nuestro propio papel reciclado o hacer cuadernos sostenibles para vender en nuestro emprendimiento.
-        Con nuestra ropa vieja, podríamos utilizar retazos para hacernos un lindo bolso colorido.
-      </p>
+      </div>
+      </div>
+      
 
-      <h4>Basura inorgánica</h4>
-      <div class="descripcion-con-imagen">
-        <ul id="lista-rec">
-          <li id="lista-rec">Comida natural que sobra: es otra fuente orgánica ideal para darle de comer a nuestras mascotas o bien utilizarla en un compost para posterior elaboración de abono para nuestras plantas.</li>
-          <li id="lista-rec">Heces de nuestros animales: también sirven como abono orgánico para mejorar la calidad y nutrientes de los cultivos, plantas y árboles en general.</li>
-          <li id="lista-rec">Hojas, pasto y ramas: son ideales para crear abono o un compost orgánico, perfecto para enriquecer la tierra y nuestros cultivos tanto en casa como en las grandes granjas a nivel empresarial.</li>
-      </ul>
-      
-      <img src="imagenes/basura-organica.jpg" alt="basura organica" class="reciclaje">
-    
-    </div>
-    </div>
-    <div>
-      <h2>Materiales NO reciclables</h2>
+    <div class="informacion">
+      <h2 class="titulo">Materiales NO reciclables</h2>
       <p class="reciclable-descripcion">Para ser reciclables, los materiales nombrados en el apartado anterior deben cumplir con ciertas condiciones. De lo contrario serán basura orgánica, ejemplo de estos son:</p>
       <ul id="lista-rec">
         <li id="lista-rec">Papeles: 
@@ -141,9 +145,8 @@
             <li id="lista-rec">Tazas, macetas y otros objetos de cerámica: este tipo de materiales no pueden reciclarse ya que son sometidos a diferentes procesos durante su elaboración, los cuales hacen que luego no puedan volver nunca más a su estado primario.</li>
           </ul>
         </li>
-        <li id="lista-rec">Textiles:</li>
-          <li id="lista-rec">telas impregnadas con contaminantes como pintura, combustible, etc.</li>
-        <li id="lista-rec">Metales: <br> Latas con sustancias tóxicas, por ejemplo pintura.</li>
+        <li id="lista-rec">Textiles: telas impregnadas con contaminantes como pintura, combustible, etc.</li>
+        <li id="lista-rec">Metales: Latas con sustancias tóxicas, por ejemplo pintura.</li>
       </ul>
       </div>
 
@@ -151,15 +154,10 @@
 
     <footer>
 
-      <nav class="nav-reciclable">
-        <button>
-        <a href="/proyectoMedioambiente/index.html">Volver al inicio</a>
-      </button>
-      </nav>
          <p id="text-footer">
-        Esto es un breve resumen que les sirve de guía. En internet existe mucha información que puede consultar si quiere profundizar en el tema.
-        Puede dejar sus comentarios en nuestro correo electrónico: sugerencias@pensemosverde.com.
-        O en el siguiente apartado:
+        En internet existe mucha información, la cual puede consultar si quiere profundizar en el tema, este es un breve resumen el cual puede servir de guía. <br>
+        Puede dejar sus comentarios en nuestro correo electrónico: sugerencias@pensemosverde.com. <br>
+        O mediante el siguiente apartado:
     </p>
 
      <fieldset>
@@ -167,8 +165,17 @@
         <label for=""> Comentarios y/o sugerencias
         <input type="text" name="" id="comentarios">
       </label>
-      <button id="enviar">Enviar</button>
+      <button>
+        <a id="enviar">Enviar</a>
+      </button>
+      <!--<button id="enviar">Enviar</button> -->
      </fieldset>
+
+     <nav class="nav-reciclable">
+      <button>
+      <a href="index.html">Volver al inicio</a>
+    </button>
+    </nav>
 
     </footer>
   </body>
