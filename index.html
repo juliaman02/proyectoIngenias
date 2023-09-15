@@ -8,10 +8,12 @@
     </style>
     <title>Pensemos Verde🌍</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./imagenes/icono.ico" type="ico" sizes="32x32" />
   </head>
 
   <body>
     <header>
+      <a name="arriba"></a>
       <h1>Pensemos Verde</h1>
       <h2 class="subtitulo">
         Esta es una pequeña guia en la cual encontraremos informacion, será util
@@ -64,29 +66,83 @@
         <div class="seccion">
           <img
             class="contenido"
-            src="imagenes/energias.jpg"
-            alt="Imagen de Ong"
+            src="imagenes/juegos.jpg"
+            ="Imagen de Juegos"
           />
-          <h3>Energias Renovables</h3>
+          <h3>Juegos</h3>
           <button>
-            <a href="seccion4.html">Ver Más...</a>
+            <a href="juegos.html">Ver Más...</a>
           </button>
         </div>
       </div>
 
-      <div class="contenedor2">
+      <!-- <div class="contenedor2">
         <div class="seccion2">
           <img
             class="contenido"
-            src="imagenes/proximamente.png"
-            alt="Proximamente"
+            src="imagenes/energias.jpg"
+            alt="Imagen de ONG"
           />
-          <h3>Más contenido proximamente...</h3>
+          <h3>Energias Renovables</h3>
           <button>
-            <a>Proximamente...</a>
+            <a href=".html">Ver Más...</a>
           </button>
         </div>
-      </div>
+      </div> -->
     </main>
+    <footer>
+      <fieldset>
+        <legend>Formulario de contacto</legend>
+        <label for="">
+          Comentarios y/o sugerencias
+          <input type="text" name="" id="comentarios" />
+        </label>
+        <button>
+          <a id="enviar">Enviar</a>
+        </button>
+        <!--<button id="enviar">Enviar</button> -->
+      </fieldset>
+
+      <nav class="nav-reciclable">
+        <fieldset class="contenedor3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99304.0624735965!2d-68.1978024874772!3d-38.94107210914358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33ba35eb8e35%3A0x6220acb810e3e2f5!2zTmV1cXXDqW4!5e0!3m2!1ses!2sar!4v1694730456810!5m2!1ses!2sar"
+            width="300"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            id="maps"
+          ></iframe>
+          <div id="nav-descr">
+            <h5>
+              Ubicación: Neuquén, Argentina <br />
+              Email: sugerencias@pensemosverde.com <br />
+              Podes suscribirte a nuestro newsletter ingresando tu email en el
+              siguiente apartado:
+            </h5>
+            <div id="email">
+            <fieldset id="email-input">
+            <label for="">
+              Ingresa tu email
+              <input type="text" name="" id="email" />
+            </label>
+            <button>
+              <a id="enviar">Enviar</a>
+            </button>
+          </fieldset>
+          </div>
+          </div>
+        </div>
+        
+        </fieldset>
+        <div>
+          <button>
+            <a href="index.html#arriba">Ir arriba</a>
+          </button>
+          </div>
+      </nav>
+    </footer>
   </body>
 </html>

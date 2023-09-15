@@ -290,3 +290,41 @@ input#comentarios {
   font-family: "Vollkorn";
   font-size: 14px;
 }
+.contenedor3 {
+  display: flex;
+  justify-content: end;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 20px;
+}
+
+h5 {
+  text-align: justify;
+  font-family: "Vollkorn", sans-serif;
+  border-radius: 20px 20px;
+  font-weight: 10;
+  font-size: 18px;
+  width: 50%;
+  margin: 10;
+}
+
+#maps {
+  padding: 0px 50px 0px 0px;
+}
+
+#nav-descr {
+  padding: 0px 0px 0px 50px;
+}
+
+#email {
+  display: flex;
+  align-items: flex-start;
+}
+
+#email-input {
+  display: flex;
+  border-radius: 10px;
+  border-style: groove;
+  border-width: 1px;
+  flex-direction: initial;
+}
