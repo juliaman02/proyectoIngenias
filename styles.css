@@ -328,3 +328,10 @@ h5 {
   border-width: 1px;
   flex-direction: initial;
 }
+
+img.centrada {
+  width: 30%;
+  margin-block: 10px;
+  border-radius: 20px;
+  padding-left: 450px;
+}

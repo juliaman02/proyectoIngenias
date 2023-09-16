@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
+    <script src="/script.js"></script>
     <header>
       <h1>Sección de juegos</h1>
       <h2 class="subtitulo">
@@ -18,7 +19,40 @@
         medioambiente!
       </h2>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <div>
+        <p>SECCIÓN EN CONSTRUCCIÓN</p>
+        <img
+          class="centrada"
+          src="/imagenes/seccionEnConstruccion.jpg"
+          alt="En construccion"
+        />
+      </div>
+    </main>
+    <footer>
+      <p id="text-footer">
+        Puede dejar sus comentarios en nuestro correo electrónico:
+        sugerencias@pensemosverde.com. <br />
+        O mediante el siguiente apartado:
+      </p>
+
+      <fieldset>
+        <legend>Formulario de contacto</legend>
+        <label for="">
+          Comentarios y/o sugerencias
+          <input type="text" name="" id="comentarios" />
+        </label>
+        <button onclick="comentarios()">
+          <a id="enviar">Enviar</a>
+        </button>
+        <!--<button id="enviar">Enviar</button> -->
+      </fieldset>
+
+      <nav class="nav-reciclable">
+        <button onclick="comentarios()">
+          <a href="/index.html">Volver al inicio</a>
+        </button>
+      </nav>
+    </footer>
   </body>
 </html>

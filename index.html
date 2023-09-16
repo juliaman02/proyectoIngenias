@@ -9,9 +9,12 @@
     <title>Pensemos Verde🌍</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="./imagenes/icono.ico" type="ico" sizes="32x32" />
+    
   </head>
 
   <body>
+    <script src="script.js"></script>
+    
     <header>
       <a name="arriba"></a>
       <h1>Pensemos Verde</h1>
@@ -91,16 +94,17 @@
       </div> -->
     </main>
     <footer>
+      
       <fieldset>
         <legend>Formulario de contacto</legend>
         <label for="">
           Comentarios y/o sugerencias
           <input type="text" name="" id="comentarios" />
         </label>
-        <button>
+        <button onclick="comentarios()">
           <a id="enviar">Enviar</a>
         </button>
-        <!--<button id="enviar">Enviar</button> -->
+        
       </fieldset>
 
       <nav class="nav-reciclable">
@@ -126,10 +130,11 @@
             <fieldset id="email-input">
             <label for="">
               Ingresa tu email
-              <input type="text" name="" id="email" />
+              <input type="email" name="" id="email">
             </label>
-            <button>
+            <button onclick="ingresoEmail()">
               <a id="enviar">Enviar</a>
+              
             </button>
           </fieldset>
           </div>
